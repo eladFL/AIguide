@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical AI Guide</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold text-gray-800">AI Guide</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Getting Started</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Tools</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Best Practices</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-white">
+        <div class="max-w-6xl mx-auto px-4 py-16">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Practical AI Guide</h1>
+                <p class="text-xl text-gray-600 mb-8">Learn how to effectively use AI tools in your daily life and work</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Sidebar -->
+            <div class="md:col-span-1">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold mb-4">Categories</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800">AI Basics</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800">ChatGPT Guide</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800">Image Generation</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800">Productivity Tools</a></li>
+                        <li><a href="#" class="text-blue-600 hover:text-blue-800">Tips & Tricks</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="md:col-span-2">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <article>
+                        <h2 class="text-2xl font-bold mb-4">Welcome to Your AI Guide</h2>
+                        <p class="text-gray-600 mb-4">
+                            This is where your latest blog post or guide will appear. You can easily edit this content
+                            and add new posts as you create them.
+                        </p>
+                        <p class="text-gray-600 mb-4">
+                            Start by sharing your knowledge about AI tools and how to use them effectively.
+                            Each post can include text, images, code examples, and more.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-8">
+            <div class="text-center">
+                <p>&copy; 2025 AI Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
