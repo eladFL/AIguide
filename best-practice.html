@@ -10,10 +10,10 @@
     <style>
         .fixed-image {
             position: fixed;
-            top: 0;
+            top: 64px; /* Adjust this value to ensure the image does not overlap the navigation bar */
             left: 0;
             width: 50%;
-            height: 100%;
+            height: calc(100% - 64px); /* Adjust this value to ensure the image does not overlap the navigation bar */
             object-fit: cover;
         }
     </style>
@@ -168,6 +168,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
