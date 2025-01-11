@@ -8,9 +8,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
-        .sticky-image {
-            position: sticky;
+        .fixed-image {
+            position: fixed;
             top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -36,7 +40,7 @@
         <!-- Flex container for content and image -->
         <div class="flex flex-col md:flex-row gap-8">
             <!-- Right side - Content -->
-            <div class="md:w-1/2">
+            <div class="md:w-1/2 ml-auto">
                 <!-- Header Section -->
                 <div class="text-center mb-12">
                     <h1 class="text-3xl font-bold mb-4">טעימה מ-AI best practices</h1>
@@ -107,6 +111,33 @@
                         </div>
                     </div>
 
+                    <!-- Text Box 5 -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-lg font-semibold mb-3">כתיבת פרומפט נכונה, דיוק וכיוונון - תרגול 4</h3>
+                        <div class="bg-gray-200 p-4 rounded-lg">
+                            <p class="text-gray-700">
+                                <strong>משימה:</strong><br>
+                                תארו לעצמכם שאתם צריכים להכין טבלת תקציב לפרויקט חדש, הכוללת סעיפים עיקריים, תת-סעיפים, וסכומים משוערים. השתמשו בטמפלט הבא ליצירת פרומפט מותאם עבור ChatGPT.<br>
+                                <strong>הנחיה לכתיבה:</strong><br>
+                                כתבו את הפרומפט כך ש-ChatGPT יפיק טבלת תקציב בפורמט Excel הכוללת כותרות ברורות, חלוקה לקטגוריות, וחישוב אוטומטי של סכום כולל.
+                            </p>
+                            <p class="text-gray-700 mt-4">
+                                <strong>דוגמה למילוי הטמפלט:</strong><br>
+                                <strong>פרסונה:</strong> מומחה פיננסי\מומחה בניהו לפרויקטים בעל ידע בניהול תקציבים לפרויקטים טכנולוגיים.<br>
+                                <strong>הגדרת המשימה:</strong> יצירת טבלת תקציב לפרויקט חדש + פירוט סעיפים עיקריים.<br>
+                                <strong>קהל יעד:</strong> מנהלי פרויקטים ואנשי כספים במנהלת הדואלית של מפא"ת.<br>
+                                <strong>מטרה:</strong> לספק מבנה תקציבי מסודר ומדויק לתכנון תקציב הפרויקט.<br>
+                                <strong>סגנון ונימה:</strong> מקצועי, ברור, ומדויק.<br>
+                                <strong>מבנה:</strong> טבלה בפורמט Excel עם כותרות כגון "סעיף", "תת-סעיף", "עלות משוערת", "סה"כ".<br>
+                                <strong>נקודות מפתח:</strong> חלוקה לפי קטגוריות (ציוד, משאבים אנושיים, תוכנה), סכומים משוערים לכל קטגוריה, וסיכום כולל בשורת הסיום.<br>
+                                <strong>מקורות:</strong> מידע מתוך התקציבים הקודמים של פרויקטים דומים./ מצגת/ PDF/ חומר על הפרויקט.<br>
+                                <strong>הנחיות נוספות:</strong> וודא שהטבלה כוללת עיצוב ברור (שורות בצבעים מתחלפים, כותרת מודגשת) וחישוב אוטומטי לסכום הכולל בתחתית. וודא שהפורמט מתאים לexcel.<br>
+                                <strong>משימה לביצוע:</strong><br>
+                                לאחר שכתבתם את הפרומפט, השתמשו בו ב-ChatGPT כדי לייצר את טבלת התקציב. בדקו אם הטבלה תואמת את הדרישות והאם חישוב הסכום הכולל מתבצע באופן אוטומטי.
+                            </p>
+                        </div>
+                    </div>
+
                     <!-- Placeholder for Future Content -->
                     <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center text-gray-500">
                         מקום לתוכן נוסף-
@@ -115,7 +146,7 @@
             </div>
 
             <!-- Left side - Image -->
-            <div class="md:w-1/2 flex items-start order-last sticky-image">
+            <div class="md:w-1/2 flex items-start order-last fixed-image">
                 <a href="https://miro.com/app/board/uXjVLzDMdjI=/?moveToWidget=3458764611971329808&cot=14"
                    target="_blank"
                    rel="noopener noreferrer">
@@ -137,5 +168,7 @@
     </footer>
 </body>
 </html>
+
+
 
 
